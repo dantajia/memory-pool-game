@@ -1,0 +1,24 @@
+{
+  "test_info": {
+    "test_runs": 10,
+    "warmup_runs": 3,
+    "total_allocations": 10000
+  },
+  "without_pool": {
+    "total_time_ms": 0.600,
+    "avg_alloc_ns": 60.00,
+    "stddev_ms": 0.490,
+    "min_ms": 0.000,
+    "max_ms": 1.005,
+    "peak_memory_kb": 20.000
+  },
+  "with_pool": {
+    "total_time_ms": 0.300,
+    "avg_alloc_ns": 29.97,
+    "stddev_ms": 0.458,
+    "min_ms": 0.000,
+    "max_ms": 1.001,
+    "peak_memory_kb": 0.000
+  },
+  "speedup": 2.00
+}
