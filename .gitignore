@@ -3,6 +3,6 @@ build/
 *.obj
 *.pdb
 *.ilk
-memorypool.json
+/memorypool.json
 .DS_Store
 Thumbs.db
